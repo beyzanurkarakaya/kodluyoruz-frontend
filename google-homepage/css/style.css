@@ -1,0 +1,218 @@
+/* Yukarıdaki navbar için yapılan düzenlemeler */
+.header {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 10px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.headerli a {
+    display: inline;
+    float: right;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+ /* Profil fotoğtafının düzenlemesi */
+.pic a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+} 
+
+.headerli a:hover {
+    text-decoration: underline;
+    color: #70757a;
+}
+
+/* Logonun düzenlemesi */
+.container {
+    text-align: center;
+    margin: 100px;
+    margin-top: 200px;
+}
+
+.container img {
+    width: 250px;
+}
+
+/* Arama kutusu ve text alanının düzenlemeleri */
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 25px;
+}
+
+.search-area:hover {
+    box-shadow: -1px 1px 3px 2px rgba(222,220,220,0.6);
+    -webkit-box-shadow: -1px 1px 3px 2px rgba(222,220,220,0.6);
+    -moz-box-shadow: -1px 1px 3px 2px rgba(222,220,220,0.6);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    width: 480px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border: 0;
+}
+
+.voice {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    margin-top: -5px;
+    padding-right: 10px;
+}
+
+.voice img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Arama butonlarının düzenlemesi */
+.buttons {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons a button {
+    color: #5f6368;
+    border: 0;
+    line-height: 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 0.5px solid #f2f2f2;
+}
+
+.buttons a button:hover {
+    color: black;
+    border: 0.5px solid #d6d6d6;
+    box-shadow: 0px 1px 0px 1px rgba(222,220,220,0.2);
+}
+
+.googlesearch {
+    margin: 11px 10px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Footer düzenlemeleri */
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    list-style-type: none;
+    background-color: #f2f2f2;
+}
+
+.footerli {
+    float: left;
+}
+
+.footerli a {
+    display: block;
+    color: #5f6368;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+}
+
+.footerli a:hover {
+    text-decoration: underline;
+}
