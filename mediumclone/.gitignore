@@ -1,0 +1,10 @@
+#medium.css dosyası hariç tüm css dosyaları izlenmesin
+*.css
+!medium.css
+
+#.js ve .map uzantılı dosyaların tümü izlenmesin
+*.js
+*.map
+
+#fontawesome dosyası izlenmesin
+fontawesome/
