@@ -1,0 +1,40 @@
+style.css
+body {
+  background: black;
+}
+
+.background {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 40%, rgba(233,130,8,1) 60%, rgba(0,0,0,1) 100%);
+}
+
+#myClock {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 7px;
+}
+
+#myDay {
+  display: block;
+  text-align: center;
+  color: #e98208;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+.greeting {
+  position: relative;
+  text-align: center;
+  color: #e98208;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+img {
+    margin-top: 250px;
+    width: 17%;
+}
